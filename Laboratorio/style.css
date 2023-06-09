@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Amiri);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: wheat;
+    font-family: 'Amiri', serif;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: table-cell;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    background-color: antiquewhite;
+}
+
+form {
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+.containerF {
+    float: left;
+    width: 500px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.containerLista{
+    float: right;
+    width: 495px;
+    margin-left: 5px;
+}
+
+.formTitle{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.formLabel {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formInput, .formLabel {
+    display: block;
+    margin-left: 20px;
+    border-color: wheat;
+}
+
+.formInput{
+    padding: 10px;
+    width: 445px;
+    border-radius: 1px;
+    border-radius: 10px;
+}
+
+.formSubmit {
+    margin-top: 20px;
+    padding: 10px;
+    width: 230px;
+    border-radius: 1px;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border-color: wheat;
+}
+
+.formConsulta {
+    visibility: visible;
+    margin-top: 20px;
+    padding: 10px;
+    width: 230px;
+    border-radius: 1px;
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border-color: wheat;
+}
+
+#consultar {
+    visibility: hidden;
+}
+
+ul{
+    visibility: hidden;
+    padding-left: 15px;
+}
+
+.toast {
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, 0px);
+    z-index: 9999;
+}
